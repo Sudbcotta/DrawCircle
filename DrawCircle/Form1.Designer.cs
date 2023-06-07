@@ -33,6 +33,9 @@
             // 
             // pnlPaint
             // 
+            pnlPaint.AllowDrop = true;
+            pnlPaint.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pnlPaint.BackColor = Color.White;
             pnlPaint.Location = new Point(14, 15);
             pnlPaint.Name = "pnlPaint";
             pnlPaint.Size = new Size(771, 419);
