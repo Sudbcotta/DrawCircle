@@ -20,7 +20,7 @@ namespace DrawCircle
         int y;
         Thread th;
         bool dragging = false;
-        Rectangle r = new Rectangle(100, 100, 100, 100);
+        Rectangle r = new Rectangle(100, 100, 50, 50);
         Bitmap bmp;
         Graphics g;
         Graphics btg;
@@ -43,10 +43,8 @@ namespace DrawCircle
                 try
                 {
                     g.DrawImage(bmp, Point.Empty);
-
                 }
                 catch { }
-
             }
         }
 
